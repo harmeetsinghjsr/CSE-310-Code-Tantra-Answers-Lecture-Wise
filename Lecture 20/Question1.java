@@ -46,7 +46,7 @@ Note: Make sure to use the println() method and not the print() method.
 
 
 package q11039;
-
+import java.util.*;
 public class BubbleSorting{
 	
 	public static void bubbleSort(int[] array){
@@ -80,6 +80,13 @@ public class BubbleSorting{
 		}
 		
 	}
-	
-}
-
+	public static void main()
+	{
+		BubbleSort ob = new BubbleSort();
+		Scanner in =new Scanner(System.in);
+		int arr[]=new int[4];
+		int i,s=arr.length;
+		for (i=1;i<=s;i++)
+		{
+			arr[i]=in.nextInt();
+		}
